@@ -46,5 +46,6 @@ public class Transactioninfo {
                 System.out.println("Target achieved after " + result + " transactions" );
             }
             }
+            sc.close();
     }
 }

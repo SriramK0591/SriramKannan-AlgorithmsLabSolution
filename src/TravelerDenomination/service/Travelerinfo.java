@@ -29,11 +29,13 @@ public class Travelerinfo {
         //Check for the denominations for the input
         Minnotes res=new Minnotes();
         res.minnotes(array,amt);
+        sc.close();
     }
     // method to insert the input array elements entered by the user
     public void insertValues() {
         for (int i = 0; i < array.length; i++) {
             System.out.print("Enter element at position " + i + ": ");
             array[i] = sc.nextInt(); }
+
     }
 }
